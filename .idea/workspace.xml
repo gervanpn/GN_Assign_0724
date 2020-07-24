@@ -55,7 +55,14 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.DateTest">
+    <configuration name="DateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DateTest" />
+      <module name="GN_Assign_0724" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EmployeeTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EmployeeTest" />
       <module name="GN_Assign_0724" />
@@ -69,6 +76,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.EmployeeTest" />
+      <item itemvalue="Application.DateTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DateTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -80,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595612257541</updated>
-      <workItem from="1595612262144" duration="4169000" />
+      <workItem from="1595612262144" duration="5459000" />
     </task>
     <servers />
   </component>
