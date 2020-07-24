@@ -11,18 +11,20 @@ public class AccountTest {
         Scanner sn = new Scanner(System.in);
 
         System.out.println("Enter 1st balance ");
-        acct1.setSavbal(sn.nextDouble());
+        acct1.setSavingsBalance(sn.nextDouble());
         System.out.println("Enter 2nd balance ");
-        acct2.setSavbal(sn.nextDouble());
+        acct2.setSavingsBalance(sn.nextDouble());
 
         acct1.balanceInfo();
         acct2.balanceInfo();
 
-        System.out.println("Enter new rate ");
+        System.out.println("Enter the new rate ");
         acct1.setNewRate(sn.nextDouble());
 
-        acct1.modifyInterestRate(NewRate);
-        acct2.modifyInterestRate();
+        acct1.modifyInterestRate(0.05);
+        acct2.modifyInterestRate(0.05);
+        acct1.calculateMonthlyInterest();
+        acct2.calculateMonthlyInterest();
 
         acct1.balanceInfo();
         acct2.balanceInfo();

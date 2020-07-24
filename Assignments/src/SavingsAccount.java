@@ -16,26 +16,26 @@ public class SavingsAccount {
     public double getAnnInt() {
         return anIntRate;
     }
-    public double getSavbal() {
+    public double getSavingsBalance() {
         return savingsBalance;
     }
         public double getIntEarn() {
         return intEarned;
     }
-    public double getEndbal() {
+    public double getEndBalance() {
         return endBalance;
     }
     public double getNewRate() {
         return newRate;
     }
 
-    public void setSavbal(double savbal) {
+    public void setSavingsBalance(double savbal) {
         savingsBalance = savbal;
         calculateMonthlyInterest();
     }
 
-    public void setNewRate(double newRate1) {
-        newRate = newRate1;
+    public void setNewRate(double Rate) {
+        newRate = Rate;
     }
 
     public void calculateMonthlyInterest() {
