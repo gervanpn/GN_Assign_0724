@@ -51,6 +51,6 @@ public class Employee {
             System.out.println("Name: " + f_name + " " + l_name);
             System.out.println("Salary: " + salary);
             System.out.println("Annual Raise " + raise);
-            System.out.println("New Salary" + total);
+            System.out.println("New Salary " + total);
         }
 }
