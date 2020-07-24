@@ -4,26 +4,29 @@ public class SavingsAccount {
     private double savingsBalance;
     private double intEarned;
     private double endBalance;
-    public SavingsAccount(double savbal, double air) {
+    private double newRate;
+    public SavingsAccount(double savbal, double air, double newrate) {
         air = 0.04;
         anIntRate = air;
         savingsBalance = savbal;
         intEarned = 0.0;
         endBalance = 0.0;
-    }
-
-    public double getSavbal() {
-        return savingsBalance;
+        newRate = newrate;
     }
     public double getAnnInt() {
         return anIntRate;
     }
-    public double getIntEarn() {
+    public double getSavbal() {
+        return savingsBalance;
+    }
+        public double getIntEarn() {
         return intEarned;
     }
-
     public double getEndbal() {
         return endBalance;
+    }
+    public double getNewRate() {
+        return newRate;
     }
 
     public void setSavbal(double savbal) {
@@ -31,8 +34,8 @@ public class SavingsAccount {
         calculateMonthlyInterest();
     }
 
-    public void setAnitrt(double aninrt) {
-        anIntRate = aninrt;
+    public void setNewRate(double newRate1) {
+        newRate = newRate1;
     }
 
     public void calculateMonthlyInterest() {
