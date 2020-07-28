@@ -55,7 +55,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.DisplayArrays">
+  <component name="RunManager" selected="Application.MyHeight">
     <configuration name="AccountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AccountTest" />
       <module name="GN_Assign_0724" />
@@ -70,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DateTest" />
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BubbleSort" />
       <module name="GN_Assign_0724" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,6 +91,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyHeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyHeight" />
+      <module name="GN_Assign_0724" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="EmployeeTest" />
       <method v="2">
@@ -99,17 +106,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.EmployeeTest" />
-      <item itemvalue="Application.DateTest" />
       <item itemvalue="Application.AccountTest" />
       <item itemvalue="Application.BookTest" />
       <item itemvalue="Application.DisplayArrays" />
+      <item itemvalue="Application.BubbleSort" />
+      <item itemvalue="Application.MyHeight" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyHeight" />
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.DisplayArrays" />
         <item itemvalue="Application.BookTest" />
         <item itemvalue="Application.AccountTest" />
-        <item itemvalue="Application.DateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +134,7 @@
       <updated>1595612257541</updated>
       <workItem from="1595612262144" duration="22107000" />
       <workItem from="1595875355166" duration="1451000" />
-      <workItem from="1595928916963" duration="966000" />
+      <workItem from="1595928916963" duration="7993000" />
     </task>
     <servers />
   </component>
@@ -157,22 +166,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="681" y="253" key="FileChooserDialogImpl/0.0.1920.1040/-3840.-240.2560.1400@0.0.1920.1040" timestamp="1595928982559" />
-    <state width="933" height="228" key="GridCell.Tab.0.bottom" timestamp="1595634413261">
+    <state width="799" height="184" key="GridCell.Tab.0.bottom" timestamp="1595966516966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="933" height="228" key="GridCell.Tab.0.bottom/0.0.1920.1040/-3840.-240.2560.1400@0.0.1920.1040" timestamp="1595634413261" />
-    <state width="933" height="228" key="GridCell.Tab.0.center" timestamp="1595634413261">
+    <state width="799" height="184" key="GridCell.Tab.0.bottom/0.0.1920.1040/-3840.-240.2560.1400@0.0.1920.1040" timestamp="1595966516966" />
+    <state width="799" height="184" key="GridCell.Tab.0.center" timestamp="1595966516966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="933" height="228" key="GridCell.Tab.0.center/0.0.1920.1040/-3840.-240.2560.1400@0.0.1920.1040" timestamp="1595634413261" />
-    <state width="933" height="228" key="GridCell.Tab.0.left" timestamp="1595634413261">
+    <state width="799" height="184" key="GridCell.Tab.0.center/0.0.1920.1040/-3840.-240.2560.1400@0.0.1920.1040" timestamp="1595966516966" />
+    <state width="799" height="184" key="GridCell.Tab.0.left" timestamp="1595966516965">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="933" height="228" key="GridCell.Tab.0.left/0.0.1920.1040/-3840.-240.2560.1400@0.0.1920.1040" timestamp="1595634413261" />
-    <state width="933" height="228" key="GridCell.Tab.0.right" timestamp="1595634413261">
+    <state width="799" height="184" key="GridCell.Tab.0.left/0.0.1920.1040/-3840.-240.2560.1400@0.0.1920.1040" timestamp="1595966516965" />
+    <state width="799" height="184" key="GridCell.Tab.0.right" timestamp="1595966516966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="933" height="228" key="GridCell.Tab.0.right/0.0.1920.1040/-3840.-240.2560.1400@0.0.1920.1040" timestamp="1595634413261" />
+    <state width="799" height="184" key="GridCell.Tab.0.right/0.0.1920.1040/-3840.-240.2560.1400@0.0.1920.1040" timestamp="1595966516966" />
     <state x="461" y="157" key="SettingsEditor" timestamp="1595628112264">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
