@@ -11,12 +11,12 @@ public class GroupNumbers {
         int nums = sc.nextInt();
         for (int i = 0; i < nums; i++) {
             System.out.println("Enter a number: ");
-            int val = sc.nextInt();
-            list.add(val);
+            int value = sc.nextInt();
+            list.add(value);
         }
 
         length = list.size();
-        System.out.println("You Entered "+ list);
+        System.out.println("You entered "+ list);
 
         counter(length);  // item 'A' done
 
@@ -39,7 +39,7 @@ public class GroupNumbers {
         System.out.println("The largest number entered was: " + lrg);  //item 'C' print
     }
 
-    public static int getMax(ArrayList<Integer> list) {
+    public static int getMax(ArrayList<Integer> list) { // find 'C'
         int maximum = list.get(0);
         for(int i=1; i < list.size(); i++) {
             if (list.get(i) > maximum) {
