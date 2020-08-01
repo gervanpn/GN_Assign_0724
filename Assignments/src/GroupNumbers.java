@@ -23,7 +23,7 @@ public class GroupNumbers {
         last = (list.get(length-1));
         lastNum(last);    // item 'B' done
 
-        lrg = 100;
+        lrg = getMax(list);
         largest(lrg);
     }
 
@@ -37,5 +37,15 @@ public class GroupNumbers {
 
     public static void largest(int lrg) {
         System.out.println("The largest number entered was: " + lrg);  //item 'C' print
+    }
+
+    public static int getMax(ArrayList<Integer> list) {
+        int maximum = list.get(0);
+        for(int i=1; i < list.size(); i++) {
+            if (list.get(i) > maximum) {
+                maximum = list.get(i);
+            }
+        }
+        return maximum;
     }
 }
