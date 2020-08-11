@@ -6,7 +6,7 @@ public class whatDate {
 
     public static void main(String args[]){
         Scanner in = new Scanner(System.in);
-        System.out.println("Input MM & DD - zero to exit");
+        System.out.println("Input MM & DD - zeros to exit");
 
         for(;;){
             int m=in.nextInt(), d=in.nextInt();
