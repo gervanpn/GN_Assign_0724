@@ -62,14 +62,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.numberInWord">
-    <configuration name="CheckOddEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CheckOddEven" />
-      <module name="GN_Assign_0724" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.whatDate">
     <configuration name="EmployeeTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EmployeeTest" />
       <module name="GN_Assign_0724" />
@@ -111,6 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="whatDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="whatDate" />
+      <module name="GN_Assign_0724" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -126,19 +126,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.EmployeeTest" />
-      <item itemvalue="Application.CheckOddEven" />
       <item itemvalue="Application.LargerInteger" />
       <item itemvalue="Application.TwoIntegerMultiple" />
       <item itemvalue="Application.GroupNumbers" />
       <item itemvalue="Application.numberInWord" />
+      <item itemvalue="Application.whatDate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.whatDate" />
         <item itemvalue="Application.numberInWord" />
         <item itemvalue="Application.GroupNumbers" />
         <item itemvalue="Application.TwoIntegerMultiple" />
         <item itemvalue="Application.LargerInteger" />
-        <item itemvalue="Application.CheckOddEven" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +158,7 @@
       <workItem from="1595928916963" duration="13252000" />
       <workItem from="1596167037156" duration="325000" />
       <workItem from="1596227337727" duration="19601000" />
-      <workItem from="1596803369407" duration="4331000" />
+      <workItem from="1596803369407" duration="11022000" />
     </task>
     <servers />
   </component>
@@ -210,26 +210,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="681" y="253" key="FileChooserDialogImpl/0.0.1920.1040/-3840.-240.2560.1400@0.0.1920.1040" timestamp="1595928982559" />
-    <state width="1607" height="184" key="GridCell.Tab.0.bottom" timestamp="1596821372203">
-      <screen x="-3840" y="-240" width="2560" height="1400" />
+    <state width="798" height="184" key="GridCell.Tab.0.bottom" timestamp="1597090512526">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1607" height="184" key="GridCell.Tab.0.bottom/0.0.1920.1040/-3840.-240.2560.1400@-3840.-240.2560.1400" timestamp="1596821372203" />
-    <state width="1605" height="184" key="GridCell.Tab.0.bottom/0.0.1920.1040/-3840.-240.2560.1400@0.0.1920.1040" timestamp="1596819803161" />
-    <state width="1607" height="184" key="GridCell.Tab.0.center" timestamp="1596821372202">
-      <screen x="-3840" y="-240" width="2560" height="1400" />
+    <state width="798" height="184" key="GridCell.Tab.0.bottom/0.0.1920.1040/-3840.-240.2560.1400@0.0.1920.1040" timestamp="1597090512526" />
+    <state width="798" height="184" key="GridCell.Tab.0.center" timestamp="1597090512525">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1607" height="184" key="GridCell.Tab.0.center/0.0.1920.1040/-3840.-240.2560.1400@-3840.-240.2560.1400" timestamp="1596821372202" />
-    <state width="1605" height="184" key="GridCell.Tab.0.center/0.0.1920.1040/-3840.-240.2560.1400@0.0.1920.1040" timestamp="1596819803160" />
-    <state width="1607" height="184" key="GridCell.Tab.0.left" timestamp="1596821372202">
-      <screen x="-3840" y="-240" width="2560" height="1400" />
+    <state width="798" height="184" key="GridCell.Tab.0.center/0.0.1920.1040/-3840.-240.2560.1400@0.0.1920.1040" timestamp="1597090512525" />
+    <state width="798" height="184" key="GridCell.Tab.0.left" timestamp="1597090512525">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1607" height="184" key="GridCell.Tab.0.left/0.0.1920.1040/-3840.-240.2560.1400@-3840.-240.2560.1400" timestamp="1596821372202" />
-    <state width="1605" height="184" key="GridCell.Tab.0.left/0.0.1920.1040/-3840.-240.2560.1400@0.0.1920.1040" timestamp="1596819803159" />
-    <state width="1607" height="184" key="GridCell.Tab.0.right" timestamp="1596821372203">
-      <screen x="-3840" y="-240" width="2560" height="1400" />
+    <state width="798" height="184" key="GridCell.Tab.0.left/0.0.1920.1040/-3840.-240.2560.1400@0.0.1920.1040" timestamp="1597090512525" />
+    <state width="798" height="184" key="GridCell.Tab.0.right" timestamp="1597090512526">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1607" height="184" key="GridCell.Tab.0.right/0.0.1920.1040/-3840.-240.2560.1400@-3840.-240.2560.1400" timestamp="1596821372203" />
-    <state width="1605" height="184" key="GridCell.Tab.0.right/0.0.1920.1040/-3840.-240.2560.1400@0.0.1920.1040" timestamp="1596819803161" />
+    <state width="798" height="184" key="GridCell.Tab.0.right/0.0.1920.1040/-3840.-240.2560.1400@0.0.1920.1040" timestamp="1597090512526" />
     <state width="802" height="276" key="GridCell.Tab.1.bottom" timestamp="1596293984432">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -254,10 +254,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="804" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-3840.-240.2560.1400@0.0.1920.1040" timestamp="1596293392399" />
-    <state x="923" y="631" width="840" height="1034" key="search.everywhere.popup" timestamp="1596295127421">
+    <state x="923" y="631" width="840" height="1034" key="search.everywhere.popup" timestamp="1597088614428">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="923" y="631" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040/-3840.-240.2560.1400@0.0.1920.1040" timestamp="1596295127421" />
+    <state x="923" y="631" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040/-3840.-240.2560.1400@0.0.1920.1040" timestamp="1597088614428" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/GN_Assign_0724$GroupNumbers.ic" NAME="GroupNumbers Coverage Results" MODIFIED="1596292955865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
